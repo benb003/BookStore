@@ -16,9 +16,7 @@ namespace BookStore.Models
         public string ISBN { get; set; }
         [Required]
         public string Author { get; set; }
-        [DisplayName("Is Book Of The Week")]
-        public bool? IsBookOfTheWeek { get; set; }
-       
+        
         [Required]
         [Range(1, 10000)]
         public double Price { get; set; }
